@@ -15,6 +15,7 @@
     position: relative; /* Permite mover a imagem em relação ao layout normal */
     z-index: 100; /* Garante que a imagem fique sobre outros elementos */
     margin-top: 10px; /* Move a imagem 10px para baixo */
+    cursor: pointer;
 }
 
 body {
@@ -33,7 +34,7 @@ body {
     z-index: 2; /* Garante que o texto fique sobre elementos com z-index menor */
     position: relative; /* Permite movimentar o texto */
     top: -50px; /* Move o texto 50px para cima */
-    font-family: 'Jersey15', sans-serif; /* Aplica a fonte personalizada */
+    font-family: 'Jersey15'; /* Aplica a fonte personalizada */
     margin-left: 500px; /* Move o texto 500px para a direita */
     margin-top: -100px; /* Move o texto 100px para cima */
 }
@@ -43,7 +44,7 @@ body {
     justify-content: left; /* Alinha os ícones à esquerda */
     align-items: center; /* Centraliza os ícones verticalmente */
     gap: 10px; /* Define espaçamento de 10px entre os ícones */
-    margin-top: 700px; /* Move o grupo de ícones 450px para baixo */
+    margin-top: 720px; /* Move o grupo de ícones 450px para baixo */
     margin-left: 1600px;
 }
 
@@ -54,3 +55,38 @@ body {
 #facebook {
     margin-left: -23px; /* Move o ícone do Facebook 21px para a esquerda */
 }   
+
+#retangulo{
+    width: 180px; /* Ajuste conforme necessário */
+    height: 50px;
+    background-color: blue;
+    border-radius: 25px; /* Metade da altura para bordas arredondadas */
+    margin-top: -190px;
+    margin-left: 300px;
+    position: fixed;
+    z-index: 2;
+}
+
+#retangulao{
+    height: 600px;
+    width: 1000px;
+    background-color: white;
+    margin-top: -800px;
+    margin-left: 70px;
+    position: absolute;
+}
+
+.normal{
+    color: white;
+    font-size: 3rem;
+    font-family: 'Jersey15';
+    margin-top: -185px;
+    margin-left: 328px;
+    z-index: 100;
+    position: fixed;
+}
+
+.mais{
+    width: 180px;
+    margin-top: 300px;
+}
