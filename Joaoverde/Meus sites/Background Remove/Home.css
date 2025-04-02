@@ -1,0 +1,134 @@
+/* O retângulo ocupará toda a largura da tela e ficará fixo no topo */
+.sussy {
+    width: 100%; /* Define a largura como 100% da tela */
+    height: 150px; /* Define a altura como 150px */
+    background-color: aqua; /* Define a cor de fundo como azul claro */
+    position: fixed; /* Mantém o elemento fixo na tela ao rolar */
+    top: 0; /* Alinha o elemento ao topo da tela */
+    left: 0; /* Alinha o elemento à esquerda da tela */
+    z-index: 1; /* Define a prioridade sobre elementos com z-index menor */
+    border: 3px solid black; /* Adiciona uma borda preta de 3px */
+}
+
+/* Define o tamanho e a posição da imagem */
+#skibidi {
+    width: 160px; /* Define a largura da imagem como 160px */
+    height: auto; /* Mantém a proporção original da imagem */
+    position: relative; /* Permite mover a imagem em relação ao layout normal */
+    z-index: 100; /* Garante que a imagem fique sobre outros elementos */
+    margin-top: 10px; /* Move a imagem 10px para baixo */
+    cursor: pointer;
+}
+
+/* Define a cor de fundo da página */
+body {
+    background-color: grey; /* Define o fundo da página como cinza */
+}
+
+/* Importa a fonte personalizada */
+@font-face {
+    font-family: 'Jersey15'; /* Define um nome para a fonte personalizada */
+    src: url('Jersey15-Regular.ttf') format('truetype'); /* Importa a fonte do arquivo */
+}
+
+/* Estiliza um texto grande com cor azul */
+.textogigante {
+    font-size: 8rem; /* Define o tamanho da fonte como 8rem */
+    font-weight: bold; /* Define o texto como negrito */
+    color: blue; /* Define a cor do texto como azul */
+    z-index: 2; /* Garante que o texto fique sobre elementos com z-index menor */
+    position: relative; /* Permite movimentar o texto */
+    top: -50px; /* Move o texto 50px para cima */
+    font-family: 'Jersey15', sans-serif; /* Aplica a fonte personalizada */
+    margin-left: 500px; /* Move o texto 500px para a direita */
+    margin-top: -100px; /* Move o texto 100px para cima */
+}
+
+/* Define o tamanho da imagem */
+.maria {
+    width: 800px; /* Define a largura da imagem como 800px */
+    height: auto; /* Mantém a proporção original da imagem */
+}
+
+/* Define a cor e tamanho do texto verde */
+.cem {
+   color: lawngreen; /* Define a cor do texto como verde */
+   font-size: 50px; /* Define o tamanho do texto como 50px */
+   margin-left: 180px; /* Move o texto 180px para a direita */
+   margin-top: 5px; /* Move o texto 5px para baixo */
+   font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Define a organização dos ícones */
+.icones {
+    display: flex; /* Usa flexbox para alinhar os ícones */
+    justify-content: left; /* Alinha os ícones à esquerda */
+    align-items: center; /* Centraliza os ícones verticalmente */
+    gap: 10px; /* Define espaçamento de 10px entre os ícones */
+    margin-top: 450px; /* Move o grupo de ícones 450px para baixo */
+}
+
+/* Ajusta a posição dos ícones do Instagram e Facebook */
+#instagram {
+    margin-left: -23px; /* Move o ícone do Instagram 17px para a esquerda */
+}
+
+#facebook {
+    margin-left: -23px; /* Move o ícone do Facebook 21px para a esquerda */
+}
+
+/* Define um retângulo verde na parte direita da tela */
+#verde {
+    height: 600px; /* Define a altura do retângulo como 600px */
+    width: 800px; /* Define a largura do retângulo como 800px */
+    background-color: greenyellow; /* Define a cor de fundo como verde-amarelado */
+    margin-left: 1000px; /* Move o retângulo 1000px para a direita */
+    margin-top: -480px; /* Move o retângulo 480px para cima */
+}
+
+/* Cria uma elipse azul */
+.elipse {
+    width: 600px; /* Define a largura da elipse como 600px */
+    height: 190px; /* Define a altura da elipse como 190px */
+    background-color: blue; /* Define a cor de fundo azul */
+    border-radius: 50%; /* Transforma o elemento em uma elipse */
+    margin-left: 1100px; /* Move a elipse 1100px para a direita */
+    margin-top: -550px; /* Move a elipse 550px para cima */
+}
+
+.dracula{
+    color: white;
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 780px;
+    margin-top: -800px;
+    white-space: nowrap;
+}
+
+.azulzinho{
+    color: cyan;
+    text-decoration: underline aquamarine;
+    margin-top: -1130px;    
+    margin-left: -530px;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: nowrap;
+}
+
+.propaganda{
+    height: 100px;
+    width: 900px;
+    background-color: white;
+    border: 2px solid black;
+    margin-left: -800px;
+    margin-top: -30px;
+
+}
+
+#add{
+    white-space: nowrap;
+    margin-left: -650px;
+    font-size: 3rem;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}

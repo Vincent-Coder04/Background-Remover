@@ -1,0 +1,56 @@
+.sussy {
+    width: 100%; /* Define a largura como 100% da tela */
+    height: 150px; /* Define a altura como 150px */
+    background-color: aqua; /* Define a cor de fundo como azul claro */
+    position: fixed; /* Mantém o elemento fixo na tela ao rolar */
+    top: 0; /* Alinha o elemento ao topo da tela */
+    left: 0; /* Alinha o elemento à esquerda da tela */
+    z-index: 1; /* Define a prioridade sobre elementos com z-index menor */
+    border: 3px solid black; /* Adiciona uma borda preta de 3px */
+}
+
+#skibidi {
+    width: 160px; /* Define a largura da imagem como 160px */
+    height: auto; /* Mantém a proporção original da imagem */
+    position: relative; /* Permite mover a imagem em relação ao layout normal */
+    z-index: 100; /* Garante que a imagem fique sobre outros elementos */
+    margin-top: 10px; /* Move a imagem 10px para baixo */
+}
+
+body {
+    background-color: grey; /* Define o fundo da página como cinza */
+}
+
+@font-face {
+    font-family: 'Jersey15'; /* Define um nome para a fonte personalizada */
+    src: url('Jersey15-Regular.ttf') format('truetype'); /* Importa a fonte do arquivo */
+}
+
+.textogigante {
+    font-size: 8rem; /* Define o tamanho da fonte como 8rem */
+    font-weight: bold; /* Define o texto como negrito */
+    color: blue; /* Define a cor do texto como azul */
+    z-index: 2; /* Garante que o texto fique sobre elementos com z-index menor */
+    position: relative; /* Permite movimentar o texto */
+    top: -50px; /* Move o texto 50px para cima */
+    font-family: 'Jersey15', sans-serif; /* Aplica a fonte personalizada */
+    margin-left: 500px; /* Move o texto 500px para a direita */
+    margin-top: -100px; /* Move o texto 100px para cima */
+}
+
+.icones {
+    display: flex; /* Usa flexbox para alinhar os ícones */
+    justify-content: left; /* Alinha os ícones à esquerda */
+    align-items: center; /* Centraliza os ícones verticalmente */
+    gap: 10px; /* Define espaçamento de 10px entre os ícones */
+    margin-top: 700px; /* Move o grupo de ícones 450px para baixo */
+    margin-left: 1600px;
+}
+
+#instagram {
+    margin-left: -23px; /* Move o ícone do Instagram 17px para a esquerda */
+}
+
+#facebook {
+    margin-left: -23px; /* Move o ícone do Facebook 21px para a esquerda */
+}   
