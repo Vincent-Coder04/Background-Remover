@@ -65,7 +65,7 @@ body {
     justify-content: left; /* Alinha os ícones à esquerda */
     align-items: center; /* Centraliza os ícones verticalmente */
     gap: 10px; /* Define espaçamento de 10px entre os ícones */
-    margin-top: 450px; /* Move o grupo de ícones 450px para baixo */
+    margin-top: 480px; /* Move o grupo de ícones 450px para baixo */
 }
 
 /* Ajusta a posição dos ícones do Instagram e Facebook */
@@ -100,15 +100,15 @@ body {
     color: white;
     font-size: 4rem;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 780px;
-    margin-top: -800px;
+    margin-left: 790px;
+    margin-top: -920px;
     white-space: nowrap;
 }
 
 .azulzinho{
     color: cyan;
     text-decoration: underline aquamarine;
-    margin-top: -1130px;    
+    margin-top: -1220px;    
     margin-left: -530px;
     font-size: 3rem;
     font-family: Arial, Helvetica, sans-serif;
