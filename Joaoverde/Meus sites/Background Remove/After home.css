@@ -32,35 +32,36 @@ body {
     font-weight: bold; /* Define o texto como negrito */
     color: blue; /* Define a cor do texto como azul */
     z-index: 2; /* Garante que o texto fique sobre elementos com z-index menor */
-    position: relative; /* Permite movimentar o texto */
-    top: -50px; /* Move o texto 50px para cima */
-    font-family: 'Jersey15'; /* Aplica a fonte personalizada */
-    margin-left: 500px; /* Move o texto 500px para a direita */
-    margin-top: -100px; /* Move o texto 100px para cima */
+    position: relative; 
+    top: -50px; 
+    font-family: 'Jersey15'; 
+    margin-left: 500px; 
+    margin-top: -100px; 
 }
 
 .icones {
-    display: flex; /* Usa flexbox para alinhar os ícones */
-    justify-content: left; /* Alinha os ícones à esquerda */
-    align-items: center; /* Centraliza os ícones verticalmente */
-    gap: 10px; /* Define espaçamento de 10px entre os ícones */
-    margin-top: 720px; /* Move o grupo de ícones 450px para baixo */
+    display: flex;
+    justify-content: left; 
+    align-items: center; 
+    gap: 10px; 
+    margin-top: 720px; 
     margin-left: 1600px;
+    gap: 10px;
 }
 
 #instagram {
-    margin-left: -23px; /* Move o ícone do Instagram 17px para a esquerda */
+    margin-left: -23px; 
 }
 
 #facebook {
-    margin-left: -23px; /* Move o ícone do Facebook 21px para a esquerda */
+    margin-left: -23px; 
 }   
 
 #retangulo{
-    width: 180px; /* Ajuste conforme necessário */
+    width: 180px; 
     height: 50px;
     background-color: blue;
-    border-radius: 25px; /* Metade da altura para bordas arredondadas */
+    border-radius: 25px; 
     margin-top: -190px;
     margin-left: 300px;
     position: fixed;
@@ -88,5 +89,27 @@ body {
 
 .mais{
     width: 180px;
-    margin-top: 300px;
+    position: fixed;
+    margin-top: -190px;
+    margin-left: 70px;
+}
+
+#retangulinho{
+    width: 200px; 
+    height: 60px;
+    background-color: blue;
+    border-radius: 35px; 
+    position: fixed;
+    margin-top: -180px;
+    margin-left: 850px;
+}
+
+#download{
+    color: white;
+    font-size: 3rem;
+    font-family: 'Jersey15';
+    margin-top: -185px;
+    margin-left: 328px;
+    position: fixed;
+    z-index: 100;
 }
